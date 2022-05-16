@@ -24,12 +24,14 @@ nav {
    position: sticky;
    top: 0;
 }
+
 a {
    font-size: 18px;
    font-weight: 400;
    text-decoration: none;
    color: #8a6829;
 }
+
 nav a {
    font-size: 18px;
    font-weight: 400;
@@ -77,15 +79,6 @@ nav li {
    color: white;
 }
 
-@media screen and (max-width: 1000px) {
-
-   #content,
-   aside {
-      width: 100%;
-      padding: 0;
-   }
-}
-
 footer {
    padding: 20px;
    color: white;
@@ -112,4 +105,13 @@ main {
 
 * {
    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+
+   #content,
+   aside {
+      width: 100%;
+      padding: 0;
+   }
 }
